@@ -1,16 +1,21 @@
 import java.util.Scanner;
 public class Rabotaet {
-    public static void main(String[] args)
-    {
-        String str = "10 20 40 60 100";
-        Scanner scanner = new Scanner(str);
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        int c = scanner.nextInt();
-        int d = scanner.nextInt();
-        int e = scanner.nextInt();
+    public static void main(String[] args) {
 
-        System.out.println(a + b - c - d + e);
+        Scanner scanner = new Scanner("Люблю тебя, Петра творенье,\n" +
+                "Люблю твой строгий, стройный вид,\n" +
+                "Невы державное теченье,\n" +
+                "Береговой ее гранит.");
+        String s = scanner.nextLine();
+        System.out.println(s);
+        s = scanner.nextLine();
+        System.out.println(s);
+        s = scanner.nextLine();
+        System.out.println(s);
+        s = scanner.nextLine();
+        System.out.println(s);
     }
 }
+
+
 
